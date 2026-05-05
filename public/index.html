@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chalé — Music, Drink and Food | Águas Formosas MG</title>
+  <meta name="description" content="Chalé — Bar e Espaço de Eventos em Águas Formosas, MG. Drinks, Porções, Música ao vivo, Comida Japonesa. Aberto de terça a domingo.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ═══ NAV ═══ -->
+  <nav id="navbar">
+    <a href="#hero" class="nav-logo">CHALÉ</a>
+    <button class="nav-toggle" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links">
+      <li><a href="#about">Sobre</a></li>
+      <li><a href="#menu">Cardápio</a></li>
+      <li><a href="#events">Eventos</a></li>
+      <li><a href="#contact">Contato</a></li>
+      <li><a href="https://www.instagram.com/chale_af/" target="_blank" rel="noopener" class="nav-ig">@chale_af</a></li>
+    </ul>
+  </nav>
+
+  <!-- ═══ HERO ═══ -->
+  <section id="hero">
+    <canvas id="hero-canvas"></canvas>
+    <div class="hero-overlay">
+      <p class="hero-tagline">Music, Drink and Food</p>
+      <h1 class="hero-title">CHALÉ</h1>
+      <p class="hero-sub">Bar & Espaço de Eventos — Águas Formosas, MG</p>
+      <a href="#about" class="btn-primary">Conheça o Chalé</a>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ═══ SOBRE ═══ -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-header anim-fade">
+        <span class="section-tag">Quem somos</span>
+        <h2 class="section-title">O Chalé</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text anim-fade">
+          <p>No coração do Campo Velho, um dos bairros mais antigos de Águas Formosas, nasceu o <strong>Chalé</strong> — um espaço onde música, boa comida e boas bebidas se encontram.</p>
+          <p>Nascido da paixão de amigos e moradores após a escola de samba Unicampo, o Chalé se tornou referência em eventos, noites de música ao vivo e os melhores drinks da região.</p>
+          <p>Aqui você encontra <strong>comida japonesa</strong>, <strong>porções artesanais</strong> e um ambiente acolhedor pra qualquer ocasião — de um happy hour a uma festa de aniversário.</p>
+        </div>
+        <div class="about-info anim-fade">
+          <div class="info-card glass">
+            <h3>Horário</h3>
+            <p>Terça a Domingo</p>
+            <p class="info-highlight">A partir das 20h</p>
+          </div>
+          <div class="info-card glass">
+            <h3>Localização</h3>
+            <p>Av. Belo Horizonte, 545</p>
+            <p>Águas Formosas — MG</p>
+          </div>
+          <div class="info-card glass">
+            <h3>WhatsApp</h3>
+            <p><a href="https://wa.me/553397010366">(33) 9701-0366</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ CARDÁPIO ═══ -->
+  <section id="menu" class="section section-dark">
+    <div class="container">
+      <div class="section-header anim-fade">
+        <span class="section-tag">Nosso Cardápio</span>
+        <h2 class="section-title">Sabores do Chalé</h2>
+      </div>
+      <div class="menu-grid">
+        <!-- Drinks -->
+        <div class="menu-category anim-fade">
+          <div class="menu-card glass tilt-card" data-tilt>
+            <div class="menu-card-icon">
+              <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 16h24l-4 32H24L20 16z"/><path d="M16 12h32"/><path d="M28 48h8"/><circle cx="26" cy="28" r="3" opacity=".4"/><circle cx="38" cy="32" r="2" opacity=".4"/></svg>
+            </div>
+            <h3>Drinks</h3>
+            <p>Coquetéis autorais, caipirinhas premium, cervejas artesanais e drinks sem álcool.</p>
+            <ul class="menu-items">
+              <li><span>Caipirinha Premium</span><span>R$ 22</span></li>
+              <li><span>Gin Tônica Chalé</span><span>R$ 28</span></li>
+              <li><span>Mojito Especial</span><span>R$ 24</span></li>
+              <li><span>Cerveja Artesanal</span><span>R$ 16</span></li>
+            </ul>
+          </div>
+        </div>
+        <!-- Comida Japonesa -->
+        <div class="menu-category anim-fade">
+          <div class="menu-card glass tilt-card" data-tilt>
+            <div class="menu-card-icon">
+              <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="32" cy="38" rx="22" ry="8"/><path d="M10 38c0-14 10-24 22-24s22 10 22 24"/><path d="M26 14c-2-6 2-10 6-10s8 4 6 10"/></svg>
+            </div>
+            <h3>Comida Japonesa</h3>
+            <p>Sushi, sashimi, temaki e combinados frescos preparados na hora.</p>
+            <ul class="menu-items">
+              <li><span>Combinado 20 peças</span><span>R$ 65</span></li>
+              <li><span>Temaki Salmão</span><span>R$ 28</span></li>
+              <li><span>Sushi Especial</span><span>R$ 32</span></li>
+              <li><span>Hot Roll 10 un</span><span>R$ 30</span></li>
+            </ul>
+          </div>
+        </div>
+        <!-- Porções -->
+        <div class="menu-category anim-fade">
+          <div class="menu-card glass tilt-card" data-tilt>
+            <div class="menu-card-icon">
+              <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="32" cy="44" rx="24" ry="8"/><path d="M8 44V28c0-16 12-20 24-20s24 4 24 20v16"/><path d="M22 28h20"/></svg>
+            </div>
+            <h3>Porções</h3>
+            <p>Porções generosas pra compartilhar — batatas, iscas, bolinhos e mais.</p>
+            <ul class="menu-items">
+              <li><span>Batata Frita Chalé</span><span>R$ 28</span></li>
+              <li><span>Iscas de Frango</span><span>R$ 32</span></li>
+              <li><span>Bolinho de Mandioca</span><span>R$ 26</span></li>
+              <li><span>Tábua de Frios</span><span>R$ 45</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ EVENTOS ═══ -->
+  <section id="events" class="section">
+    <div class="container">
+      <div class="section-header anim-fade">
+        <span class="section-tag">Agenda</span>
+        <h2 class="section-title">Eventos & Música ao Vivo</h2>
+      </div>
+      <div class="events-timeline">
+        <div class="event-card glass anim-fade featured">
+          <span class="event-badge">Próximo Evento</span>
+          <div class="event-date">
+            <span class="event-day">Sáb</span>
+            <span class="event-num">10</span>
+            <span class="event-month">Mai</span>
+          </div>
+          <div class="event-details">
+            <h3>Noite de Samba & Choro</h3>
+            <p>Roda de samba com músicos locais. Ambiente intimista, caipirinha na mão e muita vibe.</p>
+            <span class="event-time">20h — 01h</span>
+          </div>
+        </div>
+        <div class="event-card glass anim-fade">
+          <div class="event-date">
+            <span class="event-day">Sex</span>
+            <span class="event-num">16</span>
+            <span class="event-month">Mai</span>
+          </div>
+          <div class="event-details">
+            <h3>Happy Hour Especial</h3>
+            <p>Drinks em dobro na primeira hora. DJ set com mpb e jazz.</p>
+            <span class="event-time">18h — 23h</span>
+          </div>
+        </div>
+        <div class="event-card glass anim-fade">
+          <div class="event-date">
+            <span class="event-day">Sáb</span>
+            <span class="event-num">24</span>
+            <span class="event-month">Mai</span>
+          </div>
+          <div class="event-details">
+            <h3>Festa Junina Antecipada</h3>
+            <p>Quentão, paçoca, pé de moleque e forró pé de serra. Traje típico opcional!</p>
+            <span class="event-time">19h — 02h</span>
+          </div>
+        </div>
+        <div class="event-card glass anim-fade">
+          <div class="event-date">
+            <span class="event-day">Dom</span>
+            <span class="event-num">01</span>
+            <span class="event-month">Jun</span>
+          </div>
+          <div class="event-details">
+            <h3>Brunch Dominical</h3>
+            <p>Comida japonesa + brunch completo. Música acústica ao vivo.</p>
+            <span class="event-time">11h — 16h</span>
+          </div>
+        </div>
+      </div>
+      <p class="events-cta anim-fade">Quer reservar o espaço pro seu evento? <a href="#contact">Fale conosco</a></p>
+    </div>
+  </section>
+
+  <!-- ═══ CONTATO ═══ -->
+  <section id="contact" class="section section-dark">
+    <div class="container">
+      <div class="section-header anim-fade">
+        <span class="section-tag">Fale conosco</span>
+        <h2 class="section-title">Contato & Reservas</h2>
+      </div>
+      <div class="contact-grid">
+        <form id="contact-form" class="contact-form glass anim-fade">
+          <h3>Envie sua mensagem</h3>
+          <div class="form-group">
+            <label for="name">Nome</label>
+            <input type="text" id="name" name="name" required placeholder="Seu nome">
+          </div>
+          <div class="form-group">
+            <label for="phone">Telefone</label>
+            <input type="tel" id="phone" name="phone" required placeholder="(33) 9xxxx-xxxx">
+          </div>
+          <div class="form-group">
+            <label for="date">Data preferida</label>
+            <input type="date" id="date" name="date">
+          </div>
+          <div class="form-group">
+            <label for="guests">Pessoas</label>
+            <input type="number" id="guests" name="guests" min="1" max="100" placeholder="Número de pessoas">
+          </div>
+          <div class="form-group full">
+            <label for="message">Mensagem</label>
+            <textarea id="message" name="message" rows="4" required placeholder="Conte-nos mais..."></textarea>
+          </div>
+          <button type="submit" class="btn-primary btn-full">Enviar</button>
+          <div id="form-feedback" class="form-feedback"></div>
+        </form>
+        <div class="contact-info anim-fade">
+          <div class="contact-card glass">
+            <h3>WhatsApp</h3>
+            <a href="https://wa.me/553397010366" class="contact-link">(33) 9701-0366</a>
+          </div>
+          <div class="contact-card glass">
+            <h3>Instagram</h3>
+            <a href="https://www.instagram.com/chale_af/" target="_blank" rel="noopener" class="contact-link">@chale_af</a>
+          </div>
+          <div class="contact-card glass">
+            <h3>Endereço</h3>
+            <p>Av. Belo Horizonte, 545</p>
+            <p>Águas Formosas — MG, 39880-000</p>
+          </div>
+          <div class="contact-map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15000!2d-40.38!3d-17.08!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTfCsDA0JzQ4LjAiUyA0MMKwMjInNDguMCJX!5e0!3m2!1spt-BR!2sbr!4v1"
+              width="100%" height="250" style="border:0; border-radius:16px;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ FOOTER ═══ -->
+  <footer id="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="footer-logo">CHALÉ</span>
+        <p>Music, Drink and Food</p>
+      </div>
+      <div class="footer-links">
+        <a href="#about">Sobre</a>
+        <a href="#menu">Cardápio</a>
+        <a href="#events">Eventos</a>
+        <a href="#contact">Contato</a>
+      </div>
+      <div class="footer-social">
+        <a href="https://www.instagram.com/chale_af/" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="5"/><circle cx="17.5" cy="6.5" r="1.5" fill="currentColor" stroke="none"/></svg>
+        </a>
+        <a href="https://wa.me/553397010366" aria-label="WhatsApp">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 2C6.477 2 2 6.477 2 12c0 1.89.525 3.66 1.438 5.168L2 22l4.832-1.438A9.955 9.955 0 0012 22c5.523 0 10-4.477 10-10S17.523 2 12 2zm0 18a8 8 0 01-4.243-1.214L4 20l1.214-3.757A8 8 0 1112 20z"/></svg>
+        </a>
+      </div>
+      <div class="footer-legal">
+        <p>CNPJ 46.551.825/0001-03 — Chale Bar e Restaurante Ltda</p>
+        <p>&copy; 2026 Chalé. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="js/scene3d.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
